@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather';
+  text-transform: uppercase;
+}
+
+.container {
+  background-color: $c-grey-dark;
+  color: $c-white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+
+  @include tablet {
+    background-color: $c-grey-light;
+    color: $c-grey-dark;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  &__page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    padding: 2rem 2rem 0;
+
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+
+  &__cnt {
+    align-self: center;
+    flex-grow: 1;
+
+    @include tablet {
+      flex-basis: 60%;
+    }
+  }
+}
+
+.paris {
+  display: block;
+  margin-left: auto;
+  width: 33%;
+
+  @include tablet {
+    align-self: flex-end;
+    height: 360px;
+    width: auto;
+  }
+}

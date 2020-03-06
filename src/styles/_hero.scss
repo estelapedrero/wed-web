@@ -1,0 +1,70 @@
+.hero {
+    overflow-x: hidden;
+
+    @include tablet {
+        display: flex;
+    }
+
+    &__content {
+        align-self: center;
+        margin-top: 1rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+
+        @include tablet {
+            margin-top: 14rem;
+        }
+    }
+
+    &__title {
+        font-family: 'soloistregular', serif;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 1rem;
+        margin: .3rem;
+    }
+
+    &__img {
+        height: auto;
+        margin: 0;
+        width: 80%;
+
+        @include tablet {
+            height: 90vh;
+            width: auto;
+        }
+    }
+
+    &__counter {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__item {
+        flex-basis: 25%;
+        padding-left: .2rem;
+        padding-right: .2rem;
+
+        @include tablet {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        @include desktop {
+            flex-basis: 12%;
+        }
+
+        span {
+            display: block;
+
+            &:first-child {
+                font-size: 3rem;
+            }
+        }
+    }
+}

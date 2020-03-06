@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+figure {
+  img {
+    height: inherit;
+    width: inherit;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  &,
+  &:focus,
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}

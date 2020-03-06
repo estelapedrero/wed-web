@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+title: Title Strings
+---
+
+<div class="hero">
+    <img src="images/conjunto1.png" alt="Alba y Mauro" class="hero__img">
+    <div class="hero__content">
+        <h1 class="hero__title">{{siteData.name}}</h1>
+        <h2 class="hero__subtitle">{{siteData.subtitle}}</h2>
+        <div>
+            <ul class="hero__counter">
+                <li class="hero__item">
+                    <span data-days></span>
+                    <span>{{siteData.days}}</span>
+                </li>
+                <li class="hero__item">
+                    <span data-hours></span>
+                    <span>{{siteData.hours}}</span>
+                </li>
+                <li class="hero__item">
+                    <span data-minutes></span>
+                    <span>{{siteData.minutes}}</span>
+                </li>
+                <li class="hero__item">
+                    <span data-secs></span>
+                    <span>{{siteData.secs}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

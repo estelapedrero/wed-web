@@ -6,13 +6,18 @@ title: Boda Alba y Mauro
 <div class="hero">
     <img src="images/conjunto1.png" alt="Alba y Mauro" class="hero__img">
     <div class="hero__content">
-        <h1 class="hero__title">{{siteData.name}}</h1>
+        <h1 class="h1">{{siteData.name}}</h1>
         <p>{{siteData.home_subtitle}}</p>
         <ul class="hero__list">
-            <li>{{siteData.home_list_changes_1}} <a href="/boda/">Boda</a></li>
-            <li>{{siteData.home_list_changes_2}} <a href="/contacto/">contactarnos</a></li>
+            <li class="hero__list-item">
+                <span class="bold">{{siteData.home_list_changes_1a}}</span> {{siteData.home_list_changes_1}}</li>
+            <li class="hero__list-item">
+                <span class="bold">{{siteData.home_list_changes_2a}}</span> {{siteData.home_list_changes_2}} <a href="/boda/" class="link">Boda</a></li>
+            <li class="hero__list-item">
+                <span class="bold">{{siteData.home_list_changes_3a}}</span> {{siteData.home_list_changes_3}}</li>
+            <li class="hero__list-item">{{siteData.home_list_changes_4}} <a href="/contacto/" class="link">contactarnos</a></li>
         </ul>
-        <h2 class="hero__subtitle">{{siteData.subtitle}}</h2>
+        <h2 class="h2">{{siteData.subtitle}}</h2>
         <div>
             <ul class="hero__counter">
                 <li class="hero__item">

@@ -18,14 +18,8 @@
         }
     }
 
-    &__title {
-        font-family: 'soloistregular', serif;
-        text-align: center;
-    }
-
     &__subtitle {
-        font-size: 1rem;
-        margin: .3rem;
+
     }
 
     &__img {
@@ -70,13 +64,24 @@
     }
 
     &__list {
-        margin-bottom: 36px;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
         width: 80%;
+    }
 
-        a {
-            color: tomato;
-            text-decoration: underline;
+    &__list-item {
+        margin-bottom: 16px;
+        position: relative;
+
+        &:before {
+            color: black;
+            display: inline-block;
+            font-family: 'icomoon' !important;
+            content: "\e906";
+            position: absolute;
+            left: -24px;
         }
     }
 }

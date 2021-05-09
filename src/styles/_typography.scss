@@ -1,0 +1,24 @@
+.h1 {
+  font-family: 'soloistregular', serif;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 1.2rem;
+  margin: .3rem;
+  text-transform: uppercase;
+}
+
+.link {
+  color: $c-primary;
+
+  &:focus,
+  &:hover {
+    color: $c-primary;
+    text-decoration: underline;
+  }
+}
+
+.bold {
+  font-weight: 800;
+}

@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  background-color: $c-grey-dark;
+  background: linear-gradient( 180deg, $c-grey-dark 55%, rgba($c-grey-dark, .6)); //;
   color: $c-white;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ body {
   width: 100%;
 
   @include tablet {
-    background-color: $c-grey-light;
+    background: $c-grey-light;
     color: $c-grey-dark;
     flex-direction: column-reverse;
     justify-content: flex-end;

@@ -2,7 +2,7 @@ if(document.querySelector('[data-days]')) {
     function getCountDown() {
         const MS_PER_DAY = 1000 * 60 * 60 * 24
         var currentTime = new Date();
-        var wedDay =  new Date("6/13/2020, 19:00:00")
+        var wedDay =  new Date("6/12/2021, 12:00:00")
         console.log(currentTime)
         console.log(wedDay)
         var countDown = Math.abs(currentTime - wedDay)

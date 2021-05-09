@@ -1,5 +1,9 @@
 {
   "name": "Alba & Mauro",
+  "home_subtitle": "La boda sigue adelante, pero ha habido algunos cambios que queremos contarte",
+  "home_list_changes_1": "La ceremonia se celebrará en La Catedral de Zamora. Encontrarás más información en la sección de",
+  "home_list_changes_2": "Para cualquier pregunta, no dudes en ",
+  "home_list_changes_3": "",
   "subtitle": "Comienza la cuenta atrás!",
   "link_home": "inicio",
   "link_wedding": "boda",
@@ -11,5 +15,5 @@
   "secs": "seg",
   "church": "Te esperamos en la iglesia de Santa María Magdalena a las 18h",
   "restaurant": "El Parador blablabla",
-  "contact": "Para cualquier duda y para confirmar tu asistencia"
+  "contact": "Para cualquier duda y para confirmar tu asistencia, llámanos o escríbenos"
 }

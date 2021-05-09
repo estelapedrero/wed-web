@@ -68,4 +68,15 @@
             }
         }
     }
+
+    &__list {
+        margin-bottom: 36px;
+        text-align: left;
+        width: 80%;
+
+        a {
+            color: tomato;
+            text-decoration: underline;
+        }
+    }
 }

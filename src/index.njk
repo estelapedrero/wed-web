@@ -1,12 +1,17 @@
 ---
 layout: layouts/base.njk
-title: Title Strings
+title: Boda Alba y Mauro
 ---
 
 <div class="hero">
     <img src="images/conjunto1.png" alt="Alba y Mauro" class="hero__img">
     <div class="hero__content">
         <h1 class="hero__title">{{siteData.name}}</h1>
+        <p>{{siteData.home_subtitle}}</p>
+        <ul class="hero__list">
+            <li>{{siteData.home_list_changes_1}} <a href="/boda/">Boda</a></li>
+            <li>{{siteData.home_list_changes_2}} <a href="/contacto/">contactarnos</a></li>
+        </ul>
         <h2 class="hero__subtitle">{{siteData.subtitle}}</h2>
         <div>
             <ul class="hero__counter">

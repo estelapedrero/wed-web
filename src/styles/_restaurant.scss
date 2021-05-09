@@ -1,0 +1,13 @@
+.restaurant {
+    &__map {
+        height: 50vh;
+        margin-top: 36px;
+        width: 100%;
+
+        @include tablet-portrait { 
+            height: 65vh;
+            margin-top: 24px;
+            width: 95%;
+        }
+    }
+}

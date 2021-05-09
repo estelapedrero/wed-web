@@ -14,12 +14,8 @@
         width: 100%;
 
         @include tablet {
-            margin-top: 14rem;
+            margin-top: 6rem;
         }
-    }
-
-    &__subtitle {
-
     }
 
     &__img {
@@ -64,7 +60,7 @@
     }
 
     &__list {
-        margin-bottom: 48px;
+        margin-bottom: 2rem;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
@@ -76,12 +72,15 @@
         position: relative;
 
         &:before {
-            color: black;
             display: inline-block;
             font-family: 'icomoon' !important;
             content: "\e906";
             position: absolute;
             left: -24px;
         }
+    }
+
+    &__info {
+        margin-bottom: 3rem;
     }
 }

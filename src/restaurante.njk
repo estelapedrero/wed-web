@@ -4,8 +4,16 @@ title: Restaurante - Boda Alba y Mauro
 ---
 
 <div class="container__page">
-    <div class="container__cnt">
-        {{siteData.restaurant}}
+    <div class="container__cnt restaurant">
+        <p class="h2">{{siteData.restaurant}}</p>
+        <p class="caption">{{siteData.restaurant_go}}</p>
+        {# <p class="caption">{{siteData.restaurant_covid}}</p> #}
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1907.2626260431623!2d-5.748767481840263!3d41.50194809917962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd391e342cd2285b%3A0xdb4a11e936a444b3!2sParador%20de%20Zamora!5e0!3m2!1ses!2ses!4v1620579304274!5m2!1ses!2ses" 
+            class="restaurant__map"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
     </div>
     <img src="/images/paris.png" alt="perro chewaca" class="paris">
 </div>

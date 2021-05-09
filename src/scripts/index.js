@@ -1,10 +1,22 @@
+export const fixVH = () => {
+    // We execute the same script as before
+    let vh = window.innerHeight * 0.01
+    document.documentElement.style.setProperty('--vh', `${vh}px`)
+
+    window.addEventListener('resize', () => {
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01
+        document.documentElement.style.setProperty('--vh', `${vh}px`)
+    })
+}
+
+fixVH()
+
 if(document.querySelector('[data-days]')) {
     function getCountDown() {
         const MS_PER_DAY = 1000 * 60 * 60 * 24
         var currentTime = new Date();
         var wedDay =  new Date("6/12/2021, 12:00:00")
-        console.log(currentTime)
-        console.log(wedDay)
         var countDown = Math.abs(currentTime - wedDay)
         
         var countDownDays = countDown / (MS_PER_DAY);

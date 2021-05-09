@@ -6,9 +6,9 @@
   "home_list_changes_3a": "Nueva hora: ",
   "home_list_changes_1": "Te esperamos el 12 de Junio.",
   "home_list_changes_2": "La ceremonia se celebrará en La Catedral de Zamora. Encontrarás más información en la sección de",
-  "home_list_changes_3": "12:00h ¡Pasamos al horario de mañana!",
+  "home_list_changes_3": "12:30h ¡Pasamos al horario de mañana!",
   "home_list_changes_4": "Para cualquier pregunta, no dudes en ",
-  "subtitle": "Comienza la cuenta atrás!",
+  "subtitle": "¡Comienza la cuenta atrás!",
   "link_home": "inicio",
   "link_wedding": "boda",
   "link_restaurant": "restaurante",
@@ -17,7 +17,8 @@
   "hours": "horas",
   "minutes": "min",
   "secs": "seg",
-  "church": "Te esperamos en la iglesia de Santa María Magdalena a las 18h",
-  "restaurant": "El Parador blablabla",
+  "church": "Te esperamos en La Catedral de Zamora a las 12:30h",
+  "restaurant": "El banquete tendrá lugar en el Parador de Zamora",
+  "restaurant_go": "Para llegar al Parador te recomendamos seguir las indicaciones de 'Conjunto Histórico' o 'Parador'; Si usas el navegador, escribe 'Calle o Bajada San Martín', al llegar a esa calle, sigue la señal de 'Parador', está a 300 metros.",
   "contact": "Para cualquier duda y para confirmar tu asistencia, llámanos o escríbenos"
 }
